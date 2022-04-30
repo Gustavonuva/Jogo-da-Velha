@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+   }
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    background: #e9f38f;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: #e9f38f;
+    border-radius: 20px;
+}
+
+.jogador, .vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+
+button {
+    margin-top: 14px;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background: #eee;
+    cursor: pointer;
+}
+
+.btn-pink {
+    background: #5e73eb;
+    box-shadow: 0 10px 0 rgb(15, 8, 109);
+    }
+
+.btn-pink :hover{
+    background: #F6CEC5;
+    box-shadow: 0 10px 0 rgb(194, 163, 163);
+    }
+
+
+.btn-pink:active{
+    position: relative;
+    top:10px;
+    box-shadow:none
+    }
